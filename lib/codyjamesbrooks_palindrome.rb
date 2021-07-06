@@ -1,14 +1,22 @@
 require "codyjamesbrooks_palindrome/version"
 
-class String
-  # Returns true for a palindrome, false otherwise. 
+module CodyjamesbrooksPalindrome
+  
   def palindrome?
     processed_content == processed_content.reverse
   end
-
+  
   private
-    # Retturns content for palindrome testing. 
+    # Return content for palindrome testing
     def processed_content
-      scan(/[a-z]/i).join.downcase
+      to_s.scan(/[a-z0-9]/i).join.downcase
     end
+end
+
+class String
+  include CodyjamesbrooksPalindrome
+end
+
+class Integer
+  include CodyjamesbrooksPalindrome
 end

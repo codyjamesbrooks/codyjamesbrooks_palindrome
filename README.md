@@ -17,11 +17,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Gem was created by following along with "Learn Enough Ruby To Be Dangerous" by Michael Hartl
-    Gem consists of a Palindrom module, that is added to String and Integar class. 
+Gem was created by following along with "Learn Enough Ruby To Be Dangerous" by Michael Hartl
+Gem consists of a Palindrom module, that is added to String and Integar class. 
     
-    Allows instances of String and Integar class access to palindrome? function. 
-    Retruns boolean confirming if the instance is a palindrome.
+Allows instances of String and Integar class access to palindrome? function. 
+Retruns boolean confirming if the instance is a palindrome.
 
 ## Development
 

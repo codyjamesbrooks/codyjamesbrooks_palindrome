@@ -18,7 +18,7 @@ Or install it yourself as:
 ## Usage
 
 Gem was created by following along with "Learn Enough Ruby To Be Dangerous" by Michael Hartl
-Gem consists of a Palindrom module, that is added to String and Integar class. 
+Gem consists of a Palindrome module, that is added to String and Integar class.
     
 Allows instances of String and Integar class access to palindrome? function. 
 Retruns boolean confirming if the instance is a palindrome.
@@ -31,5 +31,5 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/codyjamesbrooks_palindrome.
+Bug reports and pull requests are welcome on GitHub at https://github.com/codyjamesbrooks/codyjamesbrooks_palindrome.
 
